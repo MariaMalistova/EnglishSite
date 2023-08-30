@@ -1,0 +1,32 @@
+.part-resource, h2 {
+    margin: 20px;
+}
+.resources {
+    width: 90%;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+main a:link {
+    color: darkred;
+}
+main a:visited {
+    color: darkred;
+}
+main a:hover {
+    color: rgb(185, 185, 71);
+}
+main a:active {
+    color: darkred;
+}
+@media screen and (min-width: 500px) {
+    .part-resource {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .part-resource {
+        margin: 7px;
+    }
+}

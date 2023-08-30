@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.conditionals-holder {
+    width: 90%;
+    font-size: 14pt;
+}
+.cell {
+    padding: 7px;
+    font-size: 15pt;
+    width: 300px;
+    text-align: center;
+}
+th {
+    background-color: chocolate;
+}
+td {
+    background-color: rgb(202, 119, 59);
+}
+.example {
+    color: darkred;
+    font-style: italic;
+}

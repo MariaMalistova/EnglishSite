@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+form {
+    margin-bottom: 20px; 
+    font-size: 20px;
+    font-family: "Roboto";   
+}
+li {
+    list-style-type: none;
+}
+.question {
+    margin-left: 31px;
+}
+button {
+    border: none;
+    margin-left: 15px;
+}
+button:hover {
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+.results {
+    display: none;
+    font-size: 20px;
+    font-family: "Roboto";
+    background: white;
+    border: 1px solid palevioletred;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.warning {
+    display: none;
+    color: red;
+    margin: 20px;
+}
+@media screen and (min-width: 500px) {
+    button {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}
+@media screen and (max-width: 500px) {
+    button {
+        width: 200px;
+        height: 50px;
+        border-radius: 6px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    }
+    label {
+        font-size: 10pt;
+    }
+    h4 {
+        margin-left: 20px;
+    }
+}

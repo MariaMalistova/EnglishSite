@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.verbs-holder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+.title-cell, .cell {
+    width: 200px;
+}
+.infinitive {
+    background-color: white;
+}
+.v2 {
+    background-color: rgba(194, 187, 187, 0.774);
+}
+.v3 {
+    background-color: rgba(161, 153, 153, 0.425);
+}
+.translation {
+    background-color: rgb(168, 168, 168);
+}
+.title-infinitive {
+    background-color: rgb(199, 191, 191);
+}
+.title-v2 {
+    background-color: rgba(143, 136, 136, 0.774);
+}
+.title-v3 {
+    background-color: rgba(110, 104, 104, 0.425);
+}
+.title-translation {
+    background-color: rgba(95, 91, 91, 0.774);
+}
+@media screen and (min-width: 1000px) {   
+    .title-cell, .cell {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .title-cell, .cell {
+        font-size: 26px;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 600px){
+    .title-cell, .cell {
+        font-size: 13px;
+        padding: 2px;
+    }
+    input {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 200px;
+        height: 20px;
+    }
+}

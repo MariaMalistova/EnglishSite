@@ -1,0 +1,28 @@
+img {
+    margin: 12px;
+}
+.memes-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 400px) {
+    img {
+        width: 246px;
+    }
+}
+@media screen and (max-width: 1000px){
+    img {
+        max-width: 380px;
+    }
+}
+@media screen and (min-width: 1000px){
+    img {
+        max-width: 320px;
+    }
+}

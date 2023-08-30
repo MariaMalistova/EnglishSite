@@ -1,0 +1,9 @@
+h1, h2, h3, p {
+    text-align: center;
+}
+.sign {
+    text-align: right;
+}
+.name {
+    color: sandybrown;
+}

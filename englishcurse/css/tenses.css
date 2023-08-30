@@ -1,0 +1,61 @@
+main {
+    display: flex;
+}
+.tenses-main {
+    position: relative;
+}
+.example {
+    color: darkred;
+    font-style: italic;
+}
+main a:link {
+    color: darkred;
+}
+main a:visited {
+    color: darkred;
+}
+main a:hover {
+    color: rgb(185, 185, 71);
+}
+main a:active {
+    color: darkred;
+}
+@media screen and (min-width: 1030px) and (min-height: 550px) {       
+    .tenses-list {
+        display: flex;
+        flex-direction: column;
+        background: rgb(236, 218, 169);
+        height: calc(100vh - 201px);
+        position: fixed;
+        width: 15%;
+        justify-content: space-around;
+        padding: 0 10px 0 20px;
+        font-size: 20px;
+        text-decoration: underline;
+        color: darkred;
+        border: 1px solid darkred;
+    }
+    .tenses-main {
+        left: 20%;
+        width: 60%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .tenses-list {
+        display: none;
+    }
+    .tenses-main {
+        left: 10%;
+        width: 80%;
+    }
+}
+@media screen and (max-height: 550px) {
+    .tenses-list {
+        display: none;
+    }
+    .tenses-main {
+        left: 10%;
+        width: 80%;
+    }
+}
